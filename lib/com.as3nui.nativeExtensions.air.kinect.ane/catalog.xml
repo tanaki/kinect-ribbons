@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+  <versions>
+    <swc version="1.2" />
+    <flex version="4.6.0" build="23043" minimumSupportedVersion="3.0.0" />
+  </versions>
+  <features>
+    <feature-script-deps />
+    <feature-files />
+  </features>
+  <libraries>
+    <library path="library.swf">
+      <script name="com/as3nui/nativeExtensions/air/kinect/data/DeviceCapabilities" mod="1331318467000" signatureChecksum="122625892" >
+        <def id="com.as3nui.nativeExtensions.air.kinect.data:DeviceCapabilities" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.constants:Framework" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/as3nui/nativeExtensions/air/kinect/events/UserEvent" mod="1331318467000" signatureChecksum="1124187469" >
+        <def id="com.as3nui.nativeExtensions.air.kinect.events:UserEvent" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.data:User" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:Event" type="i" /> 
+      </script>
+      <script name="com/as3nui/nativeExtensions/air/kinect/constants/DeviceState" mod="1331318467000" signatureChecksum="4128654009" >
+        <def id="com.as3nui.nativeExtensions.air.kinect.constants:DeviceState" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/as3nui/nativeExtensions/air/kinect/constants/Framework" mod="1331318467000" signatureChecksum="3137814511" >
+        <def id="com.as3nui.nativeExtensions.air.kinect.constants:Framework" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/as3nui/nativeExtensions/air/kinect/data/UserFrame" mod="1331318467000" signatureChecksum="2731891047" >
+        <def id="com.as3nui.nativeExtensions.air.kinect.data:UserFrame" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.data:User" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.data:User" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/as3nui/nativeExtensions/air/kinect/frameworks/openni/data/OpenNIUserFrame" mod="1331318467000" signatureChecksum="4286801146" >
+        <def id="com.as3nui.nativeExtensions.air.kinect.frameworks.openni.data:OpenNIUserFrame" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.data:User" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.data:UserFrame" type="i" /> 
+      </script>
+      <script name="com/as3nui/nativeExtensions/air/kinect/KinectSettings" mod="1331318467000" signatureChecksum="3907466527" >
+        <def id="com.as3nui.nativeExtensions.air.kinect:KinectSettings" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.constants:CameraResolution" type="e" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/as3nui/nativeExtensions/air/kinect/frameworks/openni/OpenNIKinectSettings" mod="1331318467000" signatureChecksum="646238090" >
+        <def id="com.as3nui.nativeExtensions.air.kinect.frameworks.openni:OpenNIKinectSettings" /> 
+        <dep id="flash.utils:describeType" type="e" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.constants:CameraResolution" type="e" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="XMLList" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect:KinectSettings" type="i" /> 
+      </script>
+      <script name="com/as3nui/nativeExtensions/air/kinect/data/SkeletonJoint" mod="1331318467000" signatureChecksum="2576648057" >
+        <def id="com.as3nui.nativeExtensions.air.kinect.data:SkeletonJoint" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/as3nui/nativeExtensions/air/kinect/frameworks/openni/data/OpenNISkeletonJoint" mod="1331318467000" signatureChecksum="274102576" >
+        <def id="com.as3nui.nativeExtensions.air.kinect.frameworks.openni.data:OpenNISkeletonJoint" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.data:SkeletonJoint" type="i" /> 
+      </script>
+      <script name="com/as3nui/nativeExtensions/air/kinect/frameworks/mssdk/data/MSUserFrame" mod="1331318467000" signatureChecksum="1899716993" >
+        <def id="com.as3nui.nativeExtensions.air.kinect.frameworks.mssdk.data:MSUserFrame" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.data:User" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.data:UserFrame" type="i" /> 
+      </script>
+      <script name="com/as3nui/nativeExtensions/air/kinect/namespaces/as3nui" mod="1331318467000" signatureChecksum="3042254959" >
+        <def id="com.as3nui.nativeExtensions.air.kinect.namespaces:as3nui" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="_6ec9e61c6dc8ed2c83206de93c726a048edb1a13de52abe075cd6245ea4fa975_flash_display_Sprite" mod="1331369064648" signatureChecksum="2789571601" >
+        <def id="_6ec9e61c6dc8ed2c83206de93c726a048edb1a13de52abe075cd6245ea4fa975_flash_display_Sprite" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="com/as3nui/nativeExtensions/air/kinect/data/User" mod="1331318467000" signatureChecksum="4234674411" >
+        <def id="com.as3nui.nativeExtensions.air.kinect.data:User" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.data:SkeletonJoint" type="e" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.data:SkeletonJoint" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.namespaces:as3nui" type="n" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/as3nui/nativeExtensions/air/kinect/Kinect" mod="1331318467000" signatureChecksum="1924342343" >
+        <def id="com.as3nui.nativeExtensions.air.kinect:Kinect" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.data:PointCloudRegion" type="e" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.data:DeviceCapabilities" type="e" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.frameworks.mssdk:MSKinect" type="e" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.constants:OS" type="e" /> 
+        <dep id="flash.desktop:NativeApplication" type="e" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.frameworks.openni:OpenNIKinect" type="e" /> 
+        <dep id="flash.utils:getQualifiedClassName" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flash.events:StatusEvent" type="e" /> 
+        <dep id="flash.utils:getDefinitionByName" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.events:UserEvent" type="e" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.constants:DeviceState" type="e" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.events:CameraImageEvent" type="e" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.constants:Framework" type="e" /> 
+        <dep id="flash.external:ExtensionContext" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.data:User" type="e" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.events:PointCloudEvent" type="e" /> 
+        <dep id="flash.utils:Endian" type="e" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.events:DeviceEvent" type="e" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.events:UserFrameEvent" type="e" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.data:UserFrame" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect:KinectSettings" type="s" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.data:User" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.events:StatusEvent" type="s" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.data:PointCloudRegion" type="s" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.data:DeviceCapabilities" type="s" /> 
+        <dep id="flash.external:ExtensionContext" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.data:UserFrame" type="s" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.namespaces:as3nui" type="n" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+      </script>
+      <script name="com/as3nui/nativeExtensions/air/kinect/frameworks/mssdk/MSKinectSettings" mod="1331318467000" signatureChecksum="2133351508" >
+        <def id="com.as3nui.nativeExtensions.air.kinect.frameworks.mssdk:MSKinectSettings" /> 
+        <dep id="flash.utils:describeType" type="e" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="XMLList" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect:KinectSettings" type="i" /> 
+      </script>
+      <script name="com/as3nui/nativeExtensions/air/kinect/constants/CameraResolution" mod="1331318467000" signatureChecksum="469193346" >
+        <def id="com.as3nui.nativeExtensions.air.kinect.constants:CameraResolution" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/as3nui/nativeExtensions/air/kinect/frameworks/openni/events/OpenNICameraImageEvent" mod="1331318467000" signatureChecksum="4248665327" >
+        <def id="com.as3nui.nativeExtensions.air.kinect.frameworks.openni.events:OpenNICameraImageEvent" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:Event" type="i" /> 
+      </script>
+      <script name="com/as3nui/nativeExtensions/air/kinect/events/DeviceEvent" mod="1331318467000" signatureChecksum="1410423739" >
+        <def id="com.as3nui.nativeExtensions.air.kinect.events:DeviceEvent" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:Event" type="i" /> 
+      </script>
+      <script name="com/as3nui/nativeExtensions/air/kinect/frameworks/mssdk/data/MSSkeletonJoint" mod="1331318467000" signatureChecksum="3001447863" >
+        <def id="com.as3nui.nativeExtensions.air.kinect.frameworks.mssdk.data:MSSkeletonJoint" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.data:SkeletonJoint" type="i" /> 
+      </script>
+      <script name="com/as3nui/nativeExtensions/air/kinect/events/CameraImageEvent" mod="1331318467000" signatureChecksum="698973704" >
+        <def id="com.as3nui.nativeExtensions.air.kinect.events:CameraImageEvent" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:Event" type="i" /> 
+      </script>
+      <script name="com/as3nui/nativeExtensions/air/kinect/events/PointCloudEvent" mod="1331318467000" signatureChecksum="3750864480" >
+        <def id="com.as3nui.nativeExtensions.air.kinect.events:PointCloudEvent" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.data:PointCloudRegion" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:Event" type="i" /> 
+      </script>
+      <script name="com/as3nui/nativeExtensions/air/kinect/data/PointCloudRegion" mod="1331318467000" signatureChecksum="884910381" >
+        <def id="com.as3nui.nativeExtensions.air.kinect.data:PointCloudRegion" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/as3nui/nativeExtensions/air/kinect/frameworks/mssdk/MSKinect" mod="1331318467000" signatureChecksum="3388634917" >
+        <def id="com.as3nui.nativeExtensions.air.kinect.frameworks.mssdk:MSKinect" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.frameworks.mssdk:MSKinectSettings" type="e" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect:KinectSettings" type="s" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.frameworks.mssdk:MSKinectSettings" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect:Kinect" type="i" /> 
+      </script>
+      <script name="com/as3nui/nativeExtensions/air/kinect/constants/OS" mod="1331318467000" signatureChecksum="3290588956" >
+        <def id="com.as3nui.nativeExtensions.air.kinect.constants:OS" /> 
+        <dep id="flash.system:Capabilities" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/as3nui/nativeExtensions/air/kinect/frameworks/openni/OpenNIKinect" mod="1331318467000" signatureChecksum="3080373211" >
+        <def id="com.as3nui.nativeExtensions.air.kinect.frameworks.openni:OpenNIKinect" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.frameworks.openni:OpenNIKinectSettings" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="flash.utils:Endian" type="e" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.frameworks.openni.events:OpenNICameraImageEvent" type="e" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect:KinectSettings" type="s" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.frameworks.openni:OpenNIKinectSettings" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="flash.events:StatusEvent" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect:Kinect" type="i" /> 
+      </script>
+      <script name="com/as3nui/nativeExtensions/air/kinect/frameworks/openni/data/OpenNIUser" mod="1331318467000" signatureChecksum="927696927" >
+        <def id="com.as3nui.nativeExtensions.air.kinect.frameworks.openni.data:OpenNIUser" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.data:SkeletonJoint" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.data:User" type="i" /> 
+      </script>
+      <script name="com/as3nui/nativeExtensions/air/kinect/frameworks/mssdk/data/MSUser" mod="1331318467000" signatureChecksum="1298891942" >
+        <def id="com.as3nui.nativeExtensions.air.kinect.frameworks.mssdk.data:MSUser" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.data:SkeletonJoint" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.data:User" type="i" /> 
+      </script>
+      <script name="com/as3nui/nativeExtensions/air/kinect/events/UserFrameEvent" mod="1331318467000" signatureChecksum="1070690141" >
+        <def id="com.as3nui.nativeExtensions.air.kinect.events:UserFrameEvent" /> 
+        <dep id="com.as3nui.nativeExtensions.air.kinect.data:UserFrame" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:Event" type="i" /> 
+      </script>
+      <digests>
+        <digest type="SHA-256" signed="false" value="29b52204d39f5cb70b9008a48b8b1c56ad31fabfdaa30dc4ea5d428297937b4a"   />
+      </digests>
+    </library>
+  </libraries>
+  <files>
+  </files>
+</swc>

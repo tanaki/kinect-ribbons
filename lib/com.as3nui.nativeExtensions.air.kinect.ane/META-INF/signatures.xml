@@ -1,0 +1,45 @@
+<signatures>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="PackageSignature">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+      <SignatureMethod Algorithm="http://www.w3.org/TR/xmldsig-core#rsa-sha1"/>
+      <Reference URI="#PackageContents">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <DigestValue>Q/WE7h/8r/LtvJ1xlz4S4nc8qpjO0mEWMv+17hoCwGI=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue Id="PackageSignatureValue">KEhJ7T5vlV00zK2+g06hMP1jfwahAaFqHgOmUm+WfGH0IP/Cei5mRi1ofmlmn5t/TPMR55nippLH
+HCWRgCaqaRWdWJ3lxatMFtFkrT3Jqcs4YU/8amxfmNJV2WSh0IdXLqG3NvlypJxzqOyV1RJLzqkJ
+jcN8AE7qpsfgFqjlGmFdfi4K1M9TBQsHxLTtjvXAIqIzc3S5KEvvZpFy2fw7ZVUyzjfUGoB4nDIW
+BqRI7fu7vDRJ3JZSmVyLdlC0uZ5RIzrRK55vRsDpmyhTgEbixlYq4MylH2u8bwcwurDg6X8kKWLJ
+6GwcGk32vqTwfC+UqnxnI+sWKizAhYcMcwnmAg==</SignatureValue>
+    <KeyInfo>
+      <X509Data>
+        <X509Certificate>MIIDMjCCAhqgAwIBAgIbLTU4OTg2ZGY3OjEzNTY3ZTcyNmYwOi04MDAwMA0GCSqGSIb3DQEBBQUA
+MEMxCzAJBgNVBAYTAlVTMQ8wDQYDVQQKEwZhczNudWkxDzANBgNVBAsTBmFzM251aTESMBAGA1UE
+AxMJZGVidWdDZXJ0MB4XDTEyMDIwOTE1MzQ1NloXDTE3MDIxMDE1MzQ1NlowQzELMAkGA1UEBhMC
+VVMxDzANBgNVBAoTBmFzM251aTEPMA0GA1UECxMGYXMzbnVpMRIwEAYDVQQDEwlkZWJ1Z0NlcnQw
+ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDSDtrIU3QVal/JSO6OktGzu58PAoOlCnKG
+IPLJpjKdVa7sC5AO+YFmEScxEwX6N8PabuZT8FLRdxeAshKmAq/4ZYasVZm0Kujm6/jPDi9S94tK
+QXwhcGGJgeklfXWopqDfw8zzRi4y4deEEm4Tfo/2uXS1PlE71LcNodtSszxQNWW0d51u53KRMJpV
+KbAEX3q4iCqQUwVkezuShPiHxSuJybgt0WV+l0U5CoLvAl/UFDvbGQDUF9xlAUl27bbaQqtzpUxX
+RUL1hl41Qx4MlIiyeDbsecFTAfvqS9vbtdUolWlW8oGAUA7H/d5d3FAnSzGy69lwVswx0E6DI9jN
+iknnAgMBAAGjFzAVMBMGA1UdJQQMMAoGCCsGAQUFBwMDMA0GCSqGSIb3DQEBBQUAA4IBAQA95Pat
++ipwsmsLB8sPuTG+oIEMsDZh1rQkd8OtKRHaw1CeSsC9yQqJpsML70qd70HjyCfi5pRlprzn+YHZ
+sSh7W0fxd5lNa+TBpNeoxElM6jARUvaM46OxtSZcu3Ye66UDNU0mHMcs/tGH7Lh45OLm0brPyvWf
+KKsP2BG71QeK0COgJhqvFSDlgmPDqEzuo4izOJ6Bdr3MTYPWpoaspyvCZIsA0TMu+bhojOab7lc5
+WYLudLUtSA12IvsBkg9NZcxdMcuDT4gLxfMfKmSJYwfc7J3naB+DXrBQXI2vNkvNF2MU5RYQRXCB
+X2kHQLdPvvDiMQqvNYzSL7A/V/mGVMrJ</X509Certificate>
+      </X509Data>
+    </KeyInfo>
+    <Object>
+      <Manifest Id="PackageContents">
+        <Reference URI="mimetype"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>QfjPqwYNSozTaKi3Ar1Veog4uaFk5DPieQA0v9uRJdY=</DigestValue></Reference><Reference URI="META-INF/ANE/extension.xml"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>ZXEnWy4PhlJOj+CFa6qgQzwhpsbp5j445nnzv3jt+JU=</DigestValue></Reference><Reference URI="catalog.xml"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>iW3dNVi1nMnshVB3g4/QTem4O/hyiuFePkzm5zbUQSg=</DigestValue></Reference><Reference URI="library.swf"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>KbUiBNOfXLcLkAiki4scVq0x+r/aow3E6l1CgpeTe0o=</DigestValue></Reference><Reference URI="META-INF/ANE/MacOS-x86/KinectExtension.framework/KinectExtension"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>H6HGPQwKWaQTb8is1E2ISSv1tVZ3QmZQvVA/n+FrGX4=</DigestValue></Reference><Reference URI="META-INF/ANE/MacOS-x86/KinectExtension.framework/Resources/en.lproj/InfoPlist.strings"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>Oc8u4Ht7Mz58F50L9NeYpbcq9qTlhPUeZCcDu/pPyCg=</DigestValue></Reference><Reference URI="META-INF/ANE/MacOS-x86/KinectExtension.framework/Resources/Info.plist"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>xhWH3JeLdbtI3tiakq514NOMEyaQhXVTwuRuRvohYWE=</DigestValue></Reference><Reference URI="META-INF/ANE/MacOS-x86/KinectExtension.framework/Versions/A/KinectExtension"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>H6HGPQwKWaQTb8is1E2ISSv1tVZ3QmZQvVA/n+FrGX4=</DigestValue></Reference><Reference URI="META-INF/ANE/MacOS-x86/KinectExtension.framework/Versions/A/Resources/en.lproj/InfoPlist.strings"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>Oc8u4Ht7Mz58F50L9NeYpbcq9qTlhPUeZCcDu/pPyCg=</DigestValue></Reference><Reference URI="META-INF/ANE/MacOS-x86/KinectExtension.framework/Versions/A/Resources/Info.plist"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>xhWH3JeLdbtI3tiakq514NOMEyaQhXVTwuRuRvohYWE=</DigestValue></Reference><Reference URI="META-INF/ANE/MacOS-x86/KinectExtension.framework/Versions/Current/KinectExtension"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>H6HGPQwKWaQTb8is1E2ISSv1tVZ3QmZQvVA/n+FrGX4=</DigestValue></Reference><Reference URI="META-INF/ANE/MacOS-x86/KinectExtension.framework/Versions/Current/Resources/en.lproj/InfoPlist.strings"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>Oc8u4Ht7Mz58F50L9NeYpbcq9qTlhPUeZCcDu/pPyCg=</DigestValue></Reference><Reference URI="META-INF/ANE/MacOS-x86/KinectExtension.framework/Versions/Current/Resources/Info.plist"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>xhWH3JeLdbtI3tiakq514NOMEyaQhXVTwuRuRvohYWE=</DigestValue></Reference><Reference URI="META-INF/ANE/MacOS-x86/library.swf"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>KbUiBNOfXLcLkAiki4scVq0x+r/aow3E6l1CgpeTe0o=</DigestValue></Reference><Reference URI="META-INF/ANE/Windows-x86/KinectExtension.dll"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>RY2BNRmS4R1N+HpKGxnxEKK2sP9kInJa1P74QMOKl4k=</DigestValue></Reference><Reference URI="META-INF/ANE/Windows-x86/library.swf"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>KbUiBNOfXLcLkAiki4scVq0x+r/aow3E6l1CgpeTe0o=</DigestValue></Reference>
+      </Manifest>
+    </Object>
+    
+  </Signature>
+</signatures>
